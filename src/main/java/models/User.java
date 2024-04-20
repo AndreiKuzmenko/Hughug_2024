@@ -95,7 +95,7 @@ public class User {
         return this;
     }
 
-    public User withtId(String id) {
+    public User withId(String id) {
         this.id = id;
         return this;
     }
