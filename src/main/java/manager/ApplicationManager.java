@@ -24,7 +24,7 @@ public class ApplicationManager {
         user = new HelperUser(wd);
         wd.manage().window().maximize();
         wd.navigate().to("https://nohehug.co.il/");
-        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @AfterSuite
     public void tearDown(){

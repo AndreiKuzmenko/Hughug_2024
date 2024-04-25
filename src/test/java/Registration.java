@@ -15,8 +15,8 @@ public class Registration extends TestBase{
                 .withPosition("manager")
                 .withId("2456667899")
                 .withEmail("dan23" + i + "@gmail.com")
-                .withPhone("56666655")
-                .withLocation("חיפה");
+                .withPhone("0586666655");
+//                .withLocation("חיפה");
 
         app.getUser().openUserForm();
         app.getUser().fillRegistrationForm(user);
@@ -31,9 +31,9 @@ public class Registration extends TestBase{
                 .withLastName("Levi")
                 .withPosition("manager")
                 .withId("2455667899")
-                .withEmail("dan23@@" + i + "@gmail.com")
-                .withPhone("56766655")
-                .withLocation("חיפה");
+                .withPhone("0756766655")
+                .withEmail("dan23@@" + i + "@gmail.com");
+//                .withLocation("חיפה");
 
         app.getUser().openUserForm();
         app.getUser().fillRegistrationForm(user);
