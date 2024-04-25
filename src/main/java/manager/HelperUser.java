@@ -21,7 +21,7 @@ type(By.id("job"), user.getPosition());
 type(By.id("identityNumber"), user.getId());
 type(By.id("mail"), user.getEmail());
 type(By.id("phone"), user.getPhone());
-select(By.id("placeName"), user.getLocation()));
+select(By.id("placeName"), user.getLocation());
     }
 
 
